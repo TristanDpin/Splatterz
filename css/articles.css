@@ -1,0 +1,218 @@
+.blochome img {
+    height: 300px;
+    position: absolute
+}
+
+.bloctext{
+    background-color: white;
+    width: 400px;
+    position: relative;
+    margin: 300px 0px 0px 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px 40px;
+}
+
+.descriptiontext{
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+}
+
+.splash{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+    width: 100vw;
+    height: 250px;
+    background-color: #990033;
+}
+
+.space {
+    height: 150px;
+    width: 100%;
+}
+
+.blochome2 {
+    position: relative;
+}
+
+.blochome2 img {
+    height: 300px;
+    position: absolute;right: 0;
+}
+
+.bloctext2{
+    background-color: white;
+    width: 400px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px 40px;
+    margin: 225px 200px 0 0;
+    right: 0;
+    float: right;
+}
+
+.containblocs{
+    display: block;
+}
+
+.centerbloc {
+    display: flex;
+    justify-content: center;
+}
+
+.displaycenter{
+    display: flex;
+    justify-content: center;
+}
+
+.bloctext3{
+    background-color: white;
+    width: 400px;
+    position: relative;
+    margin: 225px 0px 0px 200px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px 40px;
+}
+
+.containbutton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.buttonlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 50px;
+    border: #990033 2px solid;
+    color: #990033;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.buttonlink:hover{
+    width: 140px;
+    height: 50px;
+    background-color: #990033;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* HALLOWEEN ////////////////////////////////*/
+
+#halloweenred{
+    color: #C00051;
+}
+
+#halloween-button{
+    border: #C00051 2px solid;
+    color: #C00051;
+}
+
+
+.splash2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+    width: 100vw;
+    height: 250px;
+    background-color: #C00051;
+}
+
+#halloween-button:hover{
+    background-color: #C00051;
+    color: white;
+}
+
+
+
+
+@media (min-width: 350px) and (max-width: 620px){
+
+    .splash{
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 100px;
+        width: 100vw;
+        height: 150px;
+        background-color: #990033;
+    }
+
+    .blochome, .blochome2, .blochome3{
+        width: 100%;
+
+    }
+
+    .blochome img, .blochome2 img, .blochome3 img {
+        height: 250px;
+        position: absolute;
+        padding: 0 40px 0 40px;
+    }
+    
+    .bloctext, .bloctext2, .bloctext3{
+        background-color: white;
+        width: 75%;
+        height: auto;
+        position: relative;
+        margin: 300px 20px 0px 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 15px 40px;
+    }
+
+    .bloctext2{
+        background-color: white;
+        width: 75%;
+        height: auto;
+        position: relative;
+        margin: 220px 20px 0px 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 15px 40px;
+    }
+
+    .bloctext3{
+        background-color: white;
+        width: 75%;
+        height: auto;
+        position: relative;
+        margin: 200px 20px 0px 15px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 15px 40px;
+    }
+
+    .containblocs{
+        width: 100Vw;
+    }
+    
+    .space{
+        height: 80px;
+    }
+
+    h2{
+        font-size: 50px;
+        padding-left: 25px;
+        margin-top: 60px
+    }
+
+  } 
+  
+
+  @media (min-width: 620px) and (max-width: 1000px){
+
+    h2{
+        font-size: 70px;
+        padding-left: 25px;
+        margin-top: 60px
+    }
+
+  }

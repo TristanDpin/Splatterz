@@ -1,0 +1,134 @@
+#containredac{
+    width: 650px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.redacimg img{
+width: 150px;
+height: 150px;
+position: relative;
+}
+
+.redactext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redactext h4{
+    color: #C00051;
+    font-family: 'poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.space2{
+    height: 120px;
+}
+
+#faq{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#containfaq{
+    width: 70%;
+}
+
+.question{
+    color: #990033;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.reponse{
+    font-size: 14px;
+}
+
+.faqbloc{
+    margin-bottom: 60px;
+}
+
+#titlefaq{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#titleredacs{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+}
+
+#titleredacs h2{
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+h2{
+    font-size: 60px;
+}
+
+#traitred{
+    background-color: #C00051;
+    height: 100%;
+    width: 60%;
+}
+
+#containtraitred{
+    width: 100%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.circlered{
+    background-color: #C00051;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    position: absolute;
+}
+
+
+@media (min-width: 350px) and (max-width: 850px){
+
+    .redactext h4{
+        font-size: 14px;
+    }
+
+    .redacimg img{
+        width: 90px;
+        height: 90px;
+        }
+
+        h2{
+            font-size: 40px;
+        }
+
+        .circlered{
+            width: 90px;
+            height: 90px;
+        }
+
+    } 
+
+
+

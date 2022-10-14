@@ -1,0 +1,194 @@
+header{
+    top: 0;
+}
+
+#postmain{
+    width: 100%;
+}
+
+.maindiv{
+    margin-top: 80px;
+    height: auto;
+}
+
+main{
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}
+
+footer{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 0;
+}
+
+p{
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 400;
+}
+
+#flexexplain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+#contactexplain{
+    width: 50%;
+}
+
+#contactexplain h4{
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 350px;
+    overflow-y: hidden;
+    resize: none;
+    border: 0;
+    outline: 0;
+    background: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #575757;
+    padding: 10px;
+    margin: 0px 40px;
+   
+  }
+
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#dog{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#contactform{
+    width: fit-content;
+    display: flex;
+}
+
+.placeholder{
+    margin: 40px 0px;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    color: #C00051;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+
+form{
+    margin-bottom: 20px;
+    width: auto;
+}
+
+textarea{
+    border: #C00051 2px solid;
+    font-family: 'poppins', sans-serif;
+    font-weight: 200;
+}
+
+#contacttitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.message{
+    width: 67%;
+    height: 200px;
+}
+
+#containmessage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#centerbutton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+#buttonsend{
+    width: 250px;
+    height: 60px;
+    background-color: #C00051;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send{
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-weight: 200;
+}
+
+#buttonsend:hover{
+    background-color: #000000;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 620px){
+
+    #contactform{
+        display: block;
+    }
+
+    .placeholder{
+        font-size: 40px;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    textarea {
+        width: 300px;
+    }
+
+
+  } 
+  
+
+  @media (min-width: 620px) and (max-width: 1000px){
+
+    #contactform{
+        display: block;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .message{
+        width: 350px;
+    }
+    
+
+  }

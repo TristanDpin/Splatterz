@@ -1,0 +1,309 @@
+
+#homebloc{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 100%;
+    height: 4px;
+    background-color: #C00051;
+}
+
+#containhomeblog{
+    width: 800px;
+    height: 100%;
+}
+
+.bloghome1{
+    margin-top: 40px;
+    width: 450px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    float: left;
+    padding: 20px 40px;
+    background-color: white;
+    position: relative;
+}
+
+p{
+    font-family: 'poppins', sans-serif;
+    color: #990033;
+}
+
+.bloghome2{
+    margin-bottom: 40px;
+    margin-top: 60px;
+    width: 450px;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    float: right;
+    padding: 20px 40px;
+    position: relative;
+}
+
+#blocaffiche{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containaffiches{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.affiche img{
+    width: 200px;
+}
+
+#affichetitle{
+width: 100%;
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+
+#affichetitle h4{
+    font-family: 'poppins', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.affiche{
+    width: 200px;
+    text-align: center;
+}
+
+.linehome{
+    height: 100px;
+    width: 100vw;
+    background-color: #C00051;
+    position: absolute;
+    margin: 100px 0 0 0;
+    padding: 0;
+}
+
+.linehome2{
+    height: 100px;
+    width: 100vw;
+    background-color: #000000;
+    position: absolute;
+    margin: 380px 0 0 0;
+    padding: 0;
+}
+
+
+/* CAROUSEL //////////////////////////////////*/
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: auto;
+}
+
+.carousel-content {
+    display: flex;
+    transition: 500ms;
+}
+
+.carousel-content img {
+    height: auto;
+    min-width: 100vw;
+    max-width: 100vw;
+    object-fit: cover;
+}
+
+.carousel-content video {
+    min-width: 100vw;
+    max-width: 100vw;
+    min-height: auto;
+    object-fit: fill;
+}
+
+.carousel .carousel-control-left {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel .carousel-control-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 10%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+footer  {
+    margin: 0;
+}
+
+.bloghome1 p, .bloghome2 p{
+    color: black;
+}
+
+strong{
+    color: #C00051;
+}
+
+
+
+
+@media (min-width: 350px) and (max-width: 850px){
+
+    header {
+        top: 0;
+    }
+
+    .carousel {
+        position: relative;
+        overflow: hidden;
+        width: 100vw;
+        height: auto;
+        margin-top: 80px;
+    }
+    
+    .carousel-content {
+        display: flex;
+        transition: 500ms;
+    }
+    
+    .carousel-content img {
+        height: 110%;
+        min-width: 100vw;
+        max-width: 100vw;
+        object-fit: cover;
+    }
+    
+    .carousel-content video {
+        min-width: 100vw;
+        max-width: 100vw;
+        min-height: auto;
+        object-fit: fill;
+    }
+    
+    .carousel .carousel-control-left {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 10%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    .carousel .carousel-control-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    #homebloc{
+        width: 100%;
+    }
+
+    #containhomeblog{
+        padding: 0px 40px 0px 40px;
+    }
+
+    .bloghome1{
+        margin-top: 40px;
+        width: 85vw;
+        height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    .bloghome2{
+        margin-bottom: 40px;
+        margin-top: 20px;
+        width: 85vw;
+        height: auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .containaffiches{
+        padding: 0px 120px;
+        display: block;
+    }
+
+    body{
+        overflow-x: hidden;
+    };;
+
+  } 
+
+
+
+
+
+
+  
+  @media (min-width: 850px) and (max-width: 1200px){
+    header {
+        top: 0;
+    }
+
+    .carousel {
+        position: relative;
+        overflow: hidden;
+        width: 100vw;
+        height: auto;
+        margin-top: 80px;
+    }
+    
+    .carousel-content {
+        display: flex;
+        transition: 500ms;
+    }
+    
+    .carousel-content img {
+        height: 110%;
+        min-width: 100vw;
+        max-width: 100vw;
+        object-fit: cover;
+    }
+    
+    .carousel-content video {
+        min-width: 100vw;
+        max-width: 100vw;
+        min-height: auto;
+        object-fit: fill;
+    }
+    
+    .carousel .carousel-control-left {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 10%;
+        cursor: pointer;
+        z-index: 1;
+    }
+    
+    .carousel .carousel-control-right {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 10%;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+  }
