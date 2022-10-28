@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SPLATTERZ</title>
-    <link rel="stylesheet" href="css/style.css">    
-    <link rel="stylesheet" href="css/home.css">
+    <title>À PROPOS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/apropos.css">
+    <link rel="stylesheet" href="css/selectedarticle.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="img/logo.svg">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 </head>
+
 <body>
 
     <header>
@@ -19,8 +21,7 @@
             <div id="navdirection">
                 <a href="index.html">
                     <div id="homelink">
-                        <img id="logo" src="img/logo-white.svg" alt="">
-                        <h1>SPLATTERZ</h1>
+                        <img id="logo" src="img/LOGO SPLATTERZ BLANC V2.svg" alt="">
                     </div>
                     <div id="navtext">
                         <h3>
@@ -29,8 +30,8 @@
                             </a>
                         </h3>
                         <h3>
-                            <a href="apropos.html">
-                                A propos
+                            <a id="actif" href="apropos.html">
+                                À propos
                             </a>
                         </h3>
                         <h3>
@@ -45,82 +46,145 @@
 
     </header>
 
+    <div class="space2"></div>
+
+
     <main>
-        
-        <div class="carousel" data-carousel="1" data-speed="2000">
-            <span class="carousel-control-left"></span>
-            <span class="carousel-control-right"></span>
-            <div class="carousel-content">
-              <img src="img/grave.jpg" alt="image 5" />
-              <img src="img/28dayslater.jpg" alt="image 1" />
-              <img src="img/grave.jpg" alt="image 2" />
-              <img src="img/devils-rejects.jpg" alt="image 3" />
-              <img src="img/pennywise.jpg" alt="image 4" />
-              <img src="img/calvaire.jpg" alt="image 5" />
-              <img src="img/thething.jpg" alt="image 1" />
+        <div id="postmain">
+            <div class="maindiv">
+                <div id="titleredacs">
+                    <H2>Nos rédacteurs</H2>
+                </div>
+                <div class="center">
+                    
+                    <div id="containredac">
+                        <div class="redac">
+
+                            <div class="redacimg">
+                                <div class="circlered"></div>
+                                <img src="img/tristan.png" alt="">
+                            </div>
+                            <div class="redactext">
+                                <h4>Dauphin<br>Tristan</h4>
+                            </div>
+                        </div>
+
+
+
+                        <div class="redac">
+                            <div class="redacimg">
+                                <div class="circlered"></div>
+                                <img src="img/samuel.png" alt="">
+                            </div>
+                            <div class="redactext">
+                                <h4>Kanuty<br>Samuel</h4>
+                            </div>
+                        </div>
+
+
+                        <div class="redac">
+                            <div class="redacimg">
+                                <div class="circlered"></div>
+                                <img src="img/florestan.png" alt="">
+                            </div>
+                            <div class="redactext">
+                                <h4>Moulin<br>Florestan</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div id="containtraitred">
+                    <div id="traitred">
+
+                    </div>
+                </div>
+
+                <div id="faq">
+
+
+
+                    <div id="containfaq">
+                        <div id="titlefaq">
+                            <H2>F.A.Q.</H2>
+                        </div>
+
+                        <div class="faqbloc">
+                            <h5 class="question">
+                            <strong>Quel est le but du site ?</strong>
+                            </h5>
+                            <p class="reponse">
+                                Notre site a pour but de vous tenir au courant de tout l'univers du cinéma horrifique et ce qui l'entoure. De plus, nous proposons aussi des articles sur des sujets précis que nous trouvons intéressants à traiter.
+                            </p>
+                        </div>
+
+                        <div class="faqbloc">
+                            <h5 class="question">
+                            <strong>Quel avenir pour le site ?</strong>
+                            </h5>
+                            <p class="reponse">
+                                Nous envisageons d'engager plus de rédacteurs afin de vous fournir plus de contenu pertinent et d'être le plus assidu et réguliers dans la transmission d'informations.
+                            </p>
+                        </div>
+
+                        <div class="faqbloc">
+                            <h5 class="question">
+                            <strong>Où nous contacter ?</strong>
+                            </h5>
+                            <p class="reponse">
+                                Sur notre mail pro ou Instgram qui sont disponibles en bas de chaque page de notre site. Nous avons aussi un formulaire de contact disponible sur l'onglet "contact", accessible depuis la Navbar du site.
+                            </p>
+                        </div>
+
+
+
+
+
+                        <div class="faqbloc">
+                            <h5 class="question">
+                            <strong>Depuis combien de temps le site est il actif ?</strong>
+                            </h5>
+                            <p class="reponse">
+                                Nous vous informons de notre mieux depuis octobre 2022. Mais le site est en projet depuis des années, sa conception fut complexe et nécessita beaucoup de dévotion.
+                            </p>
+                        </div>
+
+                        <div class="faqbloc">
+                            <h5 class="question">
+                            <strong>Qui à la possibilité d'écrire sur le site ?</strong>
+                            </h5>
+                            <p class="reponse">
+                                Seuls nos trois rédacteurs ont la possibilité d'écrire sur le site ou de lui apporter quelconque modification. Si vous voulez nous faire part de vos écrits afin que nous les publiions, merci de passer par ceux-ci.
+                            </p>
+                        </div>
+
+                        <div class="faqbloc">
+                            <h5 class="question">
+                            <strong>Où trouvons-nous nos informations ?</strong>
+                            </h5>
+                            <p class="reponse">
+                                Grâce à notre notoriété durement acquise, nous avons accès à certains films en avant-première. Nous a également la possibilité d'interviewer certains réalisateurs. Le tout pour vous tenir au courant le plus rapidement et le plus rigoureusement possible.
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
             </div>
-          </div>
 
 
-        <div class="line"></div>
 
-        <div id="affichetitle">
-            <h4>ARTICLES A VENIR</h4>
         </div>
 
-        <div id="blocaffiche">
-            <div class="containaffiches">
-
-                <div class="affiche">
-                    <img src="img/kkfos.png" alt="">
-                    <p>Killer Klows from Outer Space ou l'apogée de la série B</p>
-                </div>
-
-                <div class="affiche">
-                    <img src="img/thegrudge.png" alt="">
-                    <p>The Grudge : l'importation de la J-Horror</p>
-                </div>
-
-                <div class="affiche">
-                    <img src="img/transfiguration.png" alt="">
-                    <p>transfiguration : une revisite du mythe vampirique</p>
-                </div>
-                
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-
-
-        <div id="homebloc">
-            <div class="linehome"></div>
-            <div class="linehome2"></div>
-            <div id="containhomeblog">
-
-                <div class="bloghome1">
-                    <p>
-                        <strong>NUMERO UN</strong> sur l'information horrifique
-                        <br><br>
-                        Notre équipe est a l'affut jour et nuit afin de pouvoir vous fournir des critiques de films que nous avons pu voir en avant première ou des interviews de réalisateurs du milieu.
-                    </p>
-                </div>
-
-                <div class="bloghome2">
-                    <p>
-                        <strong>DÉCOUVREZ</strong> l'envers du cinéma horrifique
-                        <br><br>
-                        AU dela des classiques du genre, nous vous proposons des articles concernant des piliers parfois méconnus ou bien des pépites n'ayant jamais eu le succès qu'elles méritaient.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="line"></div>
     </main>
+
 
     <footer>
         <div id="footerbloc">
-            <a href="https://www.instagram.com/splaterzmovie/?hl=fr">
+            <a href="https://www.instagram.com/splatterzmovie/?hl=fr" target="_blank">
                 <img src="img/instagram.svg" alt="">
             </a>
 
@@ -135,10 +199,3 @@
     <script src="javascript/script.js"></script>
 </body>
 </html>
-
-    
-    
-    
-    
-
-        
