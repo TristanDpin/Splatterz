@@ -53,7 +53,7 @@ a h5{
 }
 
 strong{
-    font-weight: 300;
+    font-weight: 500;
     color: #C00051;
 }
 
@@ -511,6 +511,7 @@ div[class^="ls_galerie_btn"] span, div[class^="carouselApercu_btn"] span {
         color: white;
         font-size: 30px;
         padding: 20px;
+        initial-letter: 1.5;
     }
 
     .blocblog h5 {
@@ -546,7 +547,3 @@ div[class^="ls_galerie_btn"] span, div[class^="carouselApercu_btn"] span {
     }
     
   }
-  
-  
-  
-  
