@@ -21,7 +21,7 @@ a{
 }
 
 #actif {
-    color: #C00051;
+    color: #E30412;
 }
 
 .space2 {
@@ -80,7 +80,7 @@ header {
 }
 
 #logo {
-    height: 55px;
+    height: 35px;
     margin: 0 10px 0 0;
 }
 
@@ -115,7 +115,7 @@ h3 a:hover{
 
 h4{
     font-family: 'Satoshi', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: #990033;
     margin: 10px 0 0 0;
     font-weight: 800;
